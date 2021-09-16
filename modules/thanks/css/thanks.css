@@ -1,0 +1,86 @@
+.parentColumn {
+  border-bottom: 1px solid #CCC;
+}
+
+.childColumn {
+  border-bottom: 1px solid #EEE;
+}
+
+.parentColumn p {
+  padding: 5px 15px;
+}
+
+.childColumn h2, .childColumn strong {
+  padding: 10px 15px;
+}
+
+section#contentWrapper .column .select {
+  margin-top: 10px;
+}
+
+.informators {
+  display: none;
+}
+
+.bottomPart #submit button:first-child {
+  margin-left: 10px;
+}
+
+.bottomPart #submit button {
+  float: right;
+  margin-top: 5px;
+  min-width: 150px;
+}
+
+@media (max-width: 768px) {
+  .titleColumn {
+    display: none;
+  }
+
+  .informators {
+    display: block;
+  }
+
+  section#contentWrapper .container .columns .column .columns.level .column figure {
+    margin: 0 auto;
+  }
+
+  section#contentWrapper .container .columns .column .columns.level .column {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .grid-1 {
+    width: 100%;
+    grid-area: cn;
+  }
+
+  .grid-2 {
+    grid-area: prc;
+    min-width: 5rem;
+  }
+
+  .grid-3 {
+    grid-area: quan;
+    min-width: 4rem;
+  }
+
+  .grid-4 {
+    grid-area: tot;
+    min-width: 5rem;
+  }
+
+  .grid-box {
+    display: grid;
+    grid-template-areas: "cn cn cn" "prc quan tot";
+    grid-row-gap: 1rem;
+  }
+
+  .is-left-mobile {
+    float: left;
+  }
+
+  .is-right-mobile {
+    float: right;
+  }
+}

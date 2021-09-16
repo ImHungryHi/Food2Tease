@@ -1,0 +1,14 @@
+.hidden {
+  display: none;
+}
+
+.erroneous {
+  filter: drop-shadow(0 0 0.08rem crimson);
+}
+
+@media (max-width: 768px) {
+  .column.leftContent .field {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,97 @@
+body, section.section {
+  background-color: #f5edb3;
+}
+
+section.header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  section.header {
+    /*background-image: url(../img/header.jpg);*/
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  section.header {
+    background-image: url(../img/header-big.jpg);
+  }
+
+  .has-text-right-tablet {
+    text-align: right;
+  }
+
+  .has-text-left-tablet {
+    text-align: left;
+  }
+}
+
+.socials-topright {
+  display: flex;
+  justify-content: right;
+  align-items: top;
+  float: right;
+}
+
+.title-left {
+  float: left;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'varsityregular';
+  font-size: 50px;
+}
+
+h1 span {
+  font-family: 'Bungee Shade';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 70px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.is-number {
+  max-width: 60px;
+}
+
+footer.footer {
+  padding: 1.5rem 1.5rem 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+section#maincontent {
+  margin-bottom: 10px;
+}
+
+html, body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body>footer {
+  margin-top: auto;
+}
+
+#btnBackToTop {
+  display: none;
+  position: fixed;
+  padding-top: 5px;
+  bottom: 20px;
+  right: 5px;
+  z-index: 99;
+}
+
+.tooltip{position:absolute;z-index:1070;display:block;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-style:normal;font-weight:400;line-height:1.5;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;word-spacing:normal;white-space:normal;line-break:auto;font-size:.875rem;word-wrap:break-word;opacity:0}.tooltip.show{opacity:.9}.tooltip .arrow{position:absolute;display:block;width:.8rem;height:.4rem}.tooltip .arrow::before{position:absolute;content:"";border-color:transparent;border-style:solid}.bs-tooltip-auto[x-placement^=top],.bs-tooltip-top{padding:.4rem 0}.bs-tooltip-auto[x-placement^=top] .arrow,.bs-tooltip-top .arrow{bottom:0}.bs-tooltip-auto[x-placement^=top] .arrow::before,.bs-tooltip-top .arrow::before{top:0;border-width:.4rem .4rem 0;border-top-color:#000}.bs-tooltip-auto[x-placement^=right],.bs-tooltip-right{padding:0 .4rem}.bs-tooltip-auto[x-placement^=right] .arrow,.bs-tooltip-right .arrow{left:0;width:.4rem;height:.8rem}.bs-tooltip-auto[x-placement^=right] .arrow::before,.bs-tooltip-right .arrow::before{right:0;border-width:.4rem .4rem .4rem 0;border-right-color:#000}.bs-tooltip-auto[x-placement^=bottom],.bs-tooltip-bottom{padding:.4rem 0}.bs-tooltip-auto[x-placement^=bottom] .arrow,.bs-tooltip-bottom .arrow{top:0}.bs-tooltip-auto[x-placement^=bottom] .arrow::before,.bs-tooltip-bottom .arrow::before{bottom:0;border-width:0 .4rem .4rem;border-bottom-color:#000}.bs-tooltip-auto[x-placement^=left],.bs-tooltip-left{padding:0 .4rem}.bs-tooltip-auto[x-placement^=left] .arrow,.bs-tooltip-left .arrow{right:0;width:.4rem;height:.8rem}.bs-tooltip-auto[x-placement^=left] .arrow::before,.bs-tooltip-left .arrow::before{left:0;border-width:.4rem 0 .4rem .4rem;border-left-color:#000}.tooltip-inner{max-width:200px;padding:.25rem .5rem;color:#fff;text-align:center;background-color:#000;border-radius:.25rem}
